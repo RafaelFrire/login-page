@@ -1,0 +1,42 @@
+@media screen and (min-width: 700px) and (max-width:900px){
+
+    .container-login{
+        max-width: 500px;
+        min-height: 80vh;
+
+    }
+
+    .input input{
+        max-width: 350px;
+
+    }
+
+    button{
+        max-width: 120px;
+
+    }
+    
+
+}
+
+@media screen and (max-width: 700px){
+
+    .container-login{
+        max-width: 350px;
+        min-height: 80vh;
+
+    }
+    input{
+        padding: 5px;
+    }
+
+    span{
+        font-size: .8rem;
+    }
+
+    a{
+        font-size: 1rem;
+    }
+
+
+}
